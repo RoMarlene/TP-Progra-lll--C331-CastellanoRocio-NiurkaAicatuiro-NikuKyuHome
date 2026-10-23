@@ -1,6 +1,11 @@
 @font-face{
     font-family: "Avigea";
     src: url("../fuentes/Avigea.woff2") format("woff2");
+
+}
+@font-face {
+    font-family: "Matcha";
+    src: url("fuentes/Matcha_Style.ttf") format("truetype");
 }
 
 header{
@@ -15,13 +20,41 @@ header{
 }
 
 #h1-bienvenida{
-    font-family: 'Avigea','sans-serif';
+    font-family: 'Avigea', sans-serif;
     color: #fca2b7;
     text-align: center;
     font-size: 70px;
 }
 
-#nombre-input{
-    width: 900px;              /* tamaño fijo */
-    height: auto; 
+#formulario {
+    display: flex;
+    flex-direction: column;   /* input arriba, botón abajo */
+    align-items: center;      /* centra los dos horizontalmente */
+    gap: 15px;
+}
+
+#nombre-input {
+    width: 700px;
+    height: 100px;
+    font-size: 45px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: "Matcha", sans-serif;
+    border-radius: 50px;
+    border: #d26a83 solid 5px;
+    transition: all 0.3s;
+}
+
+.boton-continuar{
+    width: 250px;
+    height: 70px;
+}
+
+#nombre-input::placeholder {
+    color: rgb(0, 0, 0, 0.2);
+}
+
+#nombre-input:focus {
+    outline: none;                /* saca el borde negro por defecto */
+    box-shadow: 0 0 15px rgb(130, 42, 62, 0.5);   /* brillo alrededor */
 }

@@ -1,0 +1,43 @@
+@font-face{
+    font-family: "Matcha";
+    src: url("../fuentes/Matcha Style.ttf") format("truetype");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+}
+#logo{
+    height: 70px;
+    width: 300px;
+}
+nav{
+    /*border: 1px black solid ;*/
+    display: flex;
+    width: 80%;
+    padding-top: 15px;
+    justify-content:space-around;
+}
+
+
+a{
+    font-family: 'Matcha','Impact';
+    font-size: 25px;
+    color: #333333;
+    text-decoration: none; /* elimina la decoracion(el subrayado)*/
+}
+a:hover{
+    color: #d26a83;
+    font-size:27px;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+}

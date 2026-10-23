@@ -1,0 +1,21 @@
+@font-face{
+    font-family: "Avigea";
+    src: url("../fuentes/Avigea.ttf") format("truetype");
+}
+
+header{
+    display: flex;
+    justify-content: center;   /* centra el logo horizontalmente */
+    padding-top: 20px;
+}
+
+#logo{
+    width: 700px;              /* tamaño fijo */
+    height: auto;              /* mantiene la proporción */
+}
+
+#h1-bienvenida{
+    font-family: 'Avigea','sans-serif';
+    color: #fca2b7;
+    text-align: center;
+}

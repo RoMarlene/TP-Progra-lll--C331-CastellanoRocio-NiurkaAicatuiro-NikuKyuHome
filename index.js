@@ -6,3 +6,5 @@ botonContinuar.onclick = () => {
     localStorage.setItem("nombreCliente", nombre);
     window.location.href = "menu/menu.html";
 };
+
+console.log("hola ")

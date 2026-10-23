@@ -1,6 +1,6 @@
 @font-face{
     font-family: "Avigea";
-    src: url("../fuentes/Avigea.ttf") format("truetype");
+    src: url("../fuentes/Avigea.woff2") format("woff2");
 }
 
 header{
@@ -10,7 +10,7 @@ header{
 }
 
 #logo{
-    width: 700px;              /* tamaño fijo */
+    width: 900px;              /* tamaño fijo */
     height: auto;              /* mantiene la proporción */
 }
 
@@ -18,4 +18,10 @@ header{
     font-family: 'Avigea','sans-serif';
     color: #fca2b7;
     text-align: center;
+    font-size: 70px;
+}
+
+#nombre-input{
+    width: 900px;              /* tamaño fijo */
+    height: auto; 
 }

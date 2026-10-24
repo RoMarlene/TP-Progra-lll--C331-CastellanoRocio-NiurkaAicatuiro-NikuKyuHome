@@ -1,0 +1,19 @@
+:root {
+    --fondo: rgb(233, 227, 227);
+    --texto: black;
+    --placeholder: rgb(0, 0, 0, 0.2);
+    --sombra: rgb(130, 42, 62, 0.5);
+}
+
+body.oscuro {
+    --fondo: #202020;
+    --texto: #ffffff;
+    --placeholder: rgb(255, 255, 255, 0.3);
+    transition: background-color 0.4s ease, color 0.4s ease;
+    --sombra: rgb(252, 162, 183, 0.6)
+}
+
+body {
+    background-color: var(--fondo);
+    color: var(--texto);
+}

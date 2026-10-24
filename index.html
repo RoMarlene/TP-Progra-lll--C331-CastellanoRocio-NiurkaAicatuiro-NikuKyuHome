@@ -4,27 +4,73 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NikuKyu Home Bienvenida ♥</title>
+    <link rel="stylesheet" href="tema-oscuro.css" />
     <link rel="stylesheet" href="index.css" />
     <link rel="icon" type="image/png" href="imagenes/favicon.png" id="icono" />
   </head>
   <body>
     <header>
-        <img src="imagenes/logo.png" alt="logo" id="logo" />
+      <img src="imagenes/logo.png" alt="logo" id="logo" />
+      <button
+        id="btn-tema"
+        type="button"
+        aria-label="Cambiar entre tema claro y oscuro"
+      >
+        <svg class="icono-luna"
+          aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          fill="none"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M12 21a9 9 0 0 1-.5-17.986V3c-.354.966-.5 1.911-.5 3a9 9 0 0 0 9 9c.239 0 .254.018.488 0A9.004 9.004 0 0 1 12 21Z"
+          />
+        </svg>
+        <svg class="icono-sol"
+          aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          fill="none"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M12 5V3m0 18v-2M7.05 7.05 5.636 5.636m12.728 12.728L16.95 16.95M5 12H3m18 0h-2M7.05 16.95l-1.414 1.414M18.364 5.636 16.95 7.05M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"
+          />
+        </svg>
+      </button>
     </header>
 
-<div>
-    <h1 id="h1-bienvenida">¡Bienvenido/a! Por favor, poné tu nombre ♥</h1>
+    <div>
+      <h1 id="h1-bienvenida">¡Bienvenido/a! Por favor, poné tu nombre ♥</h1>
 
-    <form id="formulario">
-        <input type="text" id="nombre-input" name="nombre" placeholder="Escribí tu nombre acá" required>
+      <form id="formulario">
+        <input
+          type="text"
+          id="nombre-input"
+          name="nombre"
+          placeholder="Escribí tu nombre acá"
+          required
+        />
         <button type="submit" class="boton-continuar">Continuar</button>
-    </form>
-</div>
+      </form>
+    </div>
 
     <footer>
       <h2>Castellano, Rocio</h2>
       <h2>Aicatuiro, Niurka</h2>
     </footer>
+    <script src="tema-oscuro.js"></script>
     <script src="index.js"></script>
   </body>
 </html>
